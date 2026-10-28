@@ -345,10 +345,16 @@ var __filename = fileURLToPath(import.meta.url);
 var __dirname = path2.dirname(__filename);
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3e3;
+  const PORT = Number(process.env.PORT || 3e3);
   const isProduction = process.env.NODE_ENV === "production" || process.argv.includes("--production");
   app.use(express.json());
   app.use("/api", apiRouter);
+  app.use("/api", (err, _req, res, _next) => {
+    console.error("API error:", err);
+    if (!res.headersSent) {
+      res.status(500).json({ error: "Kesalahan internal server." });
+    }
+  });
   app.get("/api/health", (_req, res) => {
     res.json({ status: "ok", timestamp: (/* @__PURE__ */ new Date()).toISOString() });
   });

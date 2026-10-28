@@ -70,7 +70,23 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         }),
       });
 
-      const data = await res.json();
+      const responseText = await res.text();
+      let data: {
+        error?: string;
+        isDeviceMismatch?: boolean;
+        registeredDevice?: any;
+        user?: UserAccount;
+        token?: string;
+      } = {};
+
+      try {
+        data = responseText ? JSON.parse(responseText) : {};
+      } catch {
+        throw new Error(
+          `Server login mengembalikan respons bukan JSON (HTTP ${res.status}). ` +
+          'Pastikan API berjalan pada port yang benar.'
+        );
+      }
 
       if (!res.ok) {
         return {
@@ -79,6 +95,10 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
           isDeviceMismatch: data.isDeviceMismatch || false,
           registeredDevice: data.registeredDevice,
         };
+      }
+
+      if (!data.user || !data.token) {
+        throw new Error('Respons login tidak lengkap dari server.');
       }
 
       setUser(data.user);

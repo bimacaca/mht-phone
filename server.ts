@@ -8,13 +8,23 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const PORT = 3006;
+  const PORT = Number(process.env.PORT || 3000);
   const isProduction = process.env.NODE_ENV === 'production' || process.argv.includes('--production');
 
   app.use(express.json());
 
   // Mount API router
   app.use('/api', apiRouter);
+
+  // API errors must remain JSON. Without this, Express can return an HTML
+  // error page, which makes the frontend fail with "Unexpected character..."
+  // while parsing the login response.
+  app.use('/api', (err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
+    console.error('API error:', err);
+    if (!res.headersSent) {
+      res.status(500).json({ error: 'Kesalahan internal server.' });
+    }
+  });
 
   // Health check route
   app.get('/api/health', (_req, res) => {
