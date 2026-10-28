@@ -1,0 +1,296 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_master",
+      "username": "admin",
+      "name": "Administrator",
+      "passwordHash": "admin123",
+      "role": "admin",
+      "boundDeviceId": null,
+      "boundDeviceName": null,
+      "boundDeviceBrowser": null,
+      "boundDeviceRegisteredAt": null,
+      "deviceStatus": "whitelisted",
+      "createdAt": "2026-10-27T18:20:00.000Z",
+      "lastLoginAt": "2026-10-28T01:55:00.975Z",
+      "lastLoginIp": "127.0.0.1"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1793152510654_9zpj",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:55:10.654Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152363805_3i2r",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:52:43.805Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152270072_9m3b",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:51:10.072Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152205806_0c9z",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:50:05.807Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152167625_btf7",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:49:27.625Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152148239_4sn3",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:49:08.239Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793152040486_xjbf",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:47:20.486Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793151989644_0rcy",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:46:29.644Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793151754775_2iwh",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:42:34.775Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793151736673_dqsk",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:42:16.673Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    },
+    {
+      "id": "log_1793151697371_1t37",
+      "userId": "usr_admin_master",
+      "username": "admin",
+      "userRole": "admin",
+      "timestamp": "2026-10-28T01:41:37.371Z",
+      "fileCount": 3,
+      "fileNames": [
+        "Bagikan di WhatsApp (2).mht",
+        "Bagikan di WhatsApp (3).mht",
+        "Bagikan di WhatsApp (4).mht"
+      ],
+      "phoneCount": 3,
+      "extractionMode": "one_per_file",
+      "deviceInfo": {
+        "id": "DEV-W06UIQ-78X1-CB4D629C",
+        "name": "Linux · Mozilla Firefox",
+        "ip": "127.0.0.1"
+      },
+      "samplePhones": [
+        "6281353296027",
+        "6281353270289",
+        "6281212697744"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MHT Phone Extractor & Sorter",
+  "description": "Aplikasi batch reader file .mht/.mhtml untuk mengekstrak dan mengurutkan nomor telepon ke format 62xx",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blast Angkatan Darat</title>
+    <meta name="description" content="Aplikasi batch reader file .mht/.mhtml untuk mengekstrak dan mengurutkan nomor telepon ke format 62xx." />
+    <meta property="og:title" content="Blast Angkatan Darat" />
+    <meta property="og:description" content="Aplikasi Mpruy" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      // Ignore harmless Vite HMR / WebSocket connection errors when HMR is disabled in AI Studio
+      window.addEventListener('error', function (event) {
+        if (
+          event &&
+          event.message &&
+          (event.message.indexOf('WebSocket') !== -1 ||
+           event.message.indexOf('createWebSocketModuleRunnerTransport') !== -1 ||
+           event.message.indexOf('@vite/client') !== -1)
+        ) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('unhandledrejection', function (event) {
+        if (
+          event &&
+          event.reason &&
+          (String(event.reason).indexOf('WebSocket') !== -1 ||
+           String(event.reason).indexOf('createWebSocketModuleRunnerTransport') !== -1 ||
+           String(event.reason).indexOf('@vite/client') !== -1)
+        ) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased font-sans selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
